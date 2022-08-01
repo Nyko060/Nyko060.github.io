@@ -1,0 +1,85 @@
+header {
+  border-top: 5px solid #17a2b8;
+  padding: 20px 35px;
+}
+
+header img.foto {
+  border-radius: 12px;
+}
+
+nav { 
+  padding: 25px 0px;
+}
+
+section {
+  margin: 30px 0px;
+}
+
+a.btn {
+  background-color: transparent;
+  color: #000000;
+  border:1px solid #fff;
+  border-radius: 44px;
+  font-variant: normal;
+  padding: 19px 31px 0px 39px;
+  width:70%;
+  height: 190px;
+}
+
+a.btn:hover {
+  background-color: #ffffff;
+  color: #999;
+}
+
+a.btn h5 {
+  font-weight: normal;
+  padding-top: 16px;
+}
+
+a.btn i.fas {
+  font-size: 52px;
+  padding: 16px 4px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+footer {
+  height: 80px;
+  padding-top: 20px;
+}
+
+.card {
+  margin: 14px 0px;
+  border-radius: 18px;
+}
+
+@media screen and (min-width: 768px){
+  a.btn {
+    width: 70%;
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  a.btn {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px)  {
+
+  img.foto {
+    width: 150px;
+  }
+
+
+  #datos-personales  {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+}
